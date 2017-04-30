@@ -19,13 +19,6 @@ body {
     text-align: center;
 }
 
-img {
-	margin-top: 40px;
-	margin-bottom: 40px;
-	margin-right: 8px;
-	margin-left: 8px;
-}
-
 h1 {
     font-family: "Raleway";
     color: #0D2C40;
@@ -64,6 +57,13 @@ p {
 	font-size: 18px;
 }
 
+img {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
 footer {
 	text-transform: uppercase;
 	padding-right: 20px;
@@ -75,14 +75,6 @@ footer {
 	font-weight: 500;
 
 }
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	content: "";
-	clear: both;
-	height: 0;
-	font-size: 0;
-}
 
 .copyright {
 	float: left;
@@ -91,7 +83,14 @@ footer {
 	float: right;
 }
 
-
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
 
 .name {
 	color: #F15B31;
